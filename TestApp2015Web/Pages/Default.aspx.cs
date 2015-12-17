@@ -15,7 +15,7 @@ namespace TestApp2015Web
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
                 case RedirectionStatus.Ok:
-                    return;
+                    return; 
                 case RedirectionStatus.ShouldRedirect:
                     Response.Redirect(redirectUrl.AbsoluteUri, endResponse: true);
                     break;
