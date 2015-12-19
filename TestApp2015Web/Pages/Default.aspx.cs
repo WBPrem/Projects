@@ -15,6 +15,7 @@ namespace TestApp2015Web
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
                 //Online Git Hub Changes One by Prem
+                //Modified by jayaseelan 3
                 //Checking Merge option with other users
                 //modified by jayaseelan 1
                 //Modified by jayaseelan 2
