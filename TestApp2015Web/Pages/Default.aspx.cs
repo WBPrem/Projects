@@ -16,6 +16,7 @@ namespace TestApp2015Web
             {
                 //Test Jayaseelan
                 //Changes done by Prem Test 12
+                //Modified by jayaseelan 2
                 case RedirectionStatus.Ok:
                     return; 
                 case RedirectionStatus.ShouldRedirect:
