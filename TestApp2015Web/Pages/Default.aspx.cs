@@ -14,9 +14,7 @@ namespace TestApp2015Web
             Uri redirectUrl;
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
-                //Test Jayaseelan
-                //Changes done by Prem Test 12
-                //Modified by jayaseelan 2
+                //Online Git Hub Changes One
                 case RedirectionStatus.Ok:
                     return; 
                 case RedirectionStatus.ShouldRedirect:
