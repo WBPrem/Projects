@@ -33,6 +33,7 @@ namespace TestApp2015Web
         {
             // The following code gets the client context and Title property by using TokenHelper.
             // To access other properties, the app may need to request permissions on the host web.
+            string Status = GetStatus();
             var spContext = SharePointContextProvider.Current.GetSharePointContext(Context);
 
             using (var clientContext = spContext.CreateUserClientContextForSPHost())
@@ -41,6 +42,12 @@ namespace TestApp2015Web
                 clientContext.ExecuteQuery();
                 Response.Write(clientContext.Web.Title);
             }
+        }
+
+        public string GetStatus()
+        {
+            string text = "Approved";
+            return text;
         }
     }
 }
