@@ -14,7 +14,8 @@ namespace TestApp2015Web
             Uri redirectUrl;
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
-                //Online Git Hub Changes One
+                //Online Git Hub Changes One by Prem
+                //Checking Merge option with other users
                 //modified by jayaseelan 1
                 case RedirectionStatus.Ok:
                     return; 
@@ -45,6 +46,7 @@ namespace TestApp2015Web
 
         public string GetStatus()
         {
+            //Changes done by Prem for Getting the Status
             string text = "Approved";
             return text;
         }
