@@ -15,6 +15,7 @@ namespace TestApp2015Web
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
                 //Online Git Hub Changes One
+                //modified by jayaseelan 1
                 case RedirectionStatus.Ok:
                     return; 
                 case RedirectionStatus.ShouldRedirect:
