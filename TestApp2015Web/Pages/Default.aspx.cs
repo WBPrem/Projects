@@ -15,6 +15,7 @@ namespace TestApp2015Web
             switch (SharePointContextProvider.CheckRedirectionStatus(Context, out redirectUrl))
             {
                 //Test Jayaseelan
+                //Changes done by Prem
                 case RedirectionStatus.Ok:
                     return; 
                 case RedirectionStatus.ShouldRedirect:
