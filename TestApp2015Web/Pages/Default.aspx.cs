@@ -17,6 +17,7 @@ namespace TestApp2015Web
                 //Online Git Hub Changes One by Prem
                 //Checking Merge option with other users
                 //modified by jayaseelan 1
+                //Modified by jayaseelan 2
                 case RedirectionStatus.Ok:
                     return; 
                 case RedirectionStatus.ShouldRedirect:
